@@ -37,3 +37,18 @@ Kemudian tambahkan kode untuk membuat Ordered List seperti berikut.
  dan hasil di webnya akan seperti ini.
 
 ![hasil coding 2](foto/hasil_coding_2.png)
+<p align="center">Gambar 3.6
+
+### Membuat Unorderd List
+
+Kemudian tambakan kode untuk membuat <i>Unordered List</i>, setelah deklarasi 
+ordered list pada section <b>unordered-list</b>, seperti berikut.
+
+![coding 3](foto/coding%203.png)
+<p align="center">Gambar 3.7
+
+dan hasil di webnya akan seperti ini.
+
+![hasil coding 3](foto/hasil_coding_3.png)
+<p align="center">Gambar 3.8
+

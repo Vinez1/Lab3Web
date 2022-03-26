@@ -52,3 +52,18 @@ dan hasil di webnya akan seperti ini.
 ![hasil coding 3](foto/hasil_coding_3.png)
 <p align="center">Gambar 3.8
 
+### Membuat Description List
+
+Kemudian tambahkan kode untuk membuat description list setelah 
+deklarasi unorderd-list.
+
+![coding 4](foto/coding%204.png)
+<p align="center">Gambar 3.9
+
+dan hasil di webnya akam seperti ini
+
+![hasil coding 4](foto/hasil_coding_4.png)
+<p align="center">Gambar 3.10
+
+
+

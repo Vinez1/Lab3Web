@@ -18,3 +18,11 @@ Buka text editor yang anda punya, contohnya Visual Studio Code
 <br>
 
 Persiapan membuat dokumen html dengan nama file <b>lab3_list.html</b> seperti berikut
+
+![coding 1](foto/coding%201.png )
+<p align="center">Gambar 3.3
+
+dan hasil di webnya akan seperti ini.
+
+![hasil coding 1](foto/hasil_coding_1.png)
+<p align="center">Gambar 3.4

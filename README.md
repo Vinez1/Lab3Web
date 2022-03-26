@@ -129,7 +129,21 @@ dan hasilnya akan seperti ini.
 
 ### Menambahkan Style pada form
 
-Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
+Agar tampilan form lebih menarik, 
+bisa ditambahkan file css dan menuliskan kode seperti berikut.
+
+![coding 11](foto/coding%2011.png)
+<p align="center">Gambar 3.21 
+
+lalu refresh dan lihat perubahannya pada web.
+
+![hasil coding 11](foto/hasil_coding_11.png)
+<p align="center">Gambar 3.22 Form dengan CSS.
+
+
+
+
+
 
 
 

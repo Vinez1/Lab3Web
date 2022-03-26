@@ -26,3 +26,14 @@ dan hasil di webnya akan seperti ini.
 
 ![hasil coding 1](foto/hasil_coding_1.png)
 <p align="center">Gambar 3.4
+
+### Membuat Order List
+
+Kemudian tambahkan kode untuk membuat Ordered List seperti berikut.
+
+![coding 2](foto/coding%202.png)
+<p align="center">Gambar 3.5
+
+ dan hasil di webnya akan seperti ini.
+
+![hasil coding 2](foto/hasil_coding_2.png)

@@ -152,7 +152,6 @@ membuat dropdown menu dan listbox dengan multiple selection menggunakan text edi
 2. Lalu buat codingan HTMLnya seperti ini 
 
 ```
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -164,12 +163,22 @@ membuat dropdown menu dan listbox dengan multiple selection menggunakan text edi
     <link rel="stylesheet" href="dropdown_style.css"
 </head>
 <body>
+    <div class="menu-wrap">
+        <ul>
+            <li><a href="https://ecampus.pelitabangsa.ac.id/">Home</a></li>
+            <li><a href="https://github.com/Vinez1">Tutorial</a>
+        <ul>
+            <li><a href="https://github.com/Vinez1/WebLab1">HTML</a></li>
+            <li><a href="https://github.com/Vinez1/Lab2Web">CSS</a></li>
+        </ul>
+        </ul>
+        </div>
     <header>
-        <h1><b>Form Mahasiswa Universitas Pelita Bangsa</b></h1>
+        <h1><b><br>Form Mahasiswa Universitas Pelita Bangsa</b></h1>
     </header>
     <form action="proses.php" method="post">
         <fieldset>
-            <legend><img src="/foto/logo.png" width="80" title="Logo Univeritas Pelita Bangsa"></legend>
+            <legend><img src="foto/logo.png" width="80" title="Logo Univeritas Pelita Bangsa"></legend>
             <p>
                 <label for="nama">Nama:</label>
                 <input type="text" id="nama" name="nama">
@@ -184,18 +193,18 @@ membuat dropdown menu dan listbox dengan multiple selection menggunakan text edi
             </p>
             <p>
                 <label for="prodi">Prodi:</label>
-                <select name='prodi'size=1 multiple>
+                <select name='prodi'size=1 multiselect>
                     <option value='' selected>Pilih Prodi</option>
-                    <option value='Teknik Informatika'selected='selected'>Teknik Informatika</option>
-                    <option value='Teknik Industri' selected='selected'>Teknik Industri</option>
-                    <option value='Teknik Sipil'selected='selected'>Teknik Sipil</option>
+                    <option value='Teknik Informatika'>Teknik Informatika</option>
+                    <option value='Teknik Industri'>Teknik Industri</option>
+                    <option value='Teknik Sipil'>Teknik Sipil</option>
                 </select>
             <p>
                 <label for="fakultas">Fakultas:</label>
-                <select name="ddl" size=1 multiple>
+                <select name="ddl" size=1 multiselect>
                     <option value='' selected>Pilih Fakultas</option>
                     <option value='FEB'>Ekonomi dan Bisnis</option>
-                    <option value='FIPHUM'>Ilmu Pendidikan dan Humaniora</option>
+                    <option value='FH'>Hukum</option>
                     <option value='FAI'>Agama Islam</option>
                     <option value='FT'selected='selected'>Teknik</option>
                 </select>
@@ -215,15 +224,17 @@ membuat dropdown menu dan listbox dengan multiple selection menggunakan text edi
                 <input id="jk_p" type="radio" name="kelamin" value="P" /><label
     for="jk_p">Perempuan</label>
             </p>
-            <p><input type="submit" value="Login"></p>
+            <p><input type="submit" value="Login">  
+            
             
         </fieldset>
     </form> 
 </body>
 </html>
-
 ```
 
+ dan hasilnya akan seperti ini
+ ![jawaban](foto/hasil_jawaban.png)
 
 
 

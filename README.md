@@ -328,7 +328,7 @@ form input[type="submit"] {
   color:#fff;
       }
 ```
- dan hasilnya akan seperti ini
+ dan hasil di webnya akan seperti ini.
  ![jawaban](foto/hasil_jawaban.png)
  <p align="center">Gambar 3.23 Hasil jawaban
 

@@ -328,8 +328,8 @@ form input[type="submit"] {
   color:#fff;
       }
 ```
- dan hasil di webnya akan seperti ini.
- ![jawaban](foto/hasil_jawaban.png)
+ dan hasil di webnya ketika di refresh akan seperti ini.
+ ![jawaban](foto/hasil_jawabann.png)
  <p align="center">Gambar 3.23 Hasil jawaban
 
 

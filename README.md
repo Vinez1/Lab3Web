@@ -144,6 +144,12 @@ lalu refresh dan lihat perubahannya pada web.
 
 Buatlah form yang menampilkan `dropdown` menu dan `listbox` dengan <b><i>multiple selection</i></b>
 
+## Jawaban
+
+membuat dropdown menu dan listbox dengan multiple selection menggunakan text editor VScode <br>
+
+1. Buat file dengan nama <b>form_dropdown.html</b> 
+2. Lalu buat codingan HTMLnya
 
 
 

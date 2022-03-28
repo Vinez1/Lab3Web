@@ -140,7 +140,9 @@ lalu refresh dan lihat perubahannya pada web.
 ![hasil coding 11](foto/hasil_coding_11.png)
 <p align="center">Gambar 3.22 Form dengan CSS.
 
+## Pertanyaan dan Tugas
 
+Buatlah form yang menampilkan `dropdown` menu dan `listbox` dengan <b><i>multiple selection</i></b>
 
 
 

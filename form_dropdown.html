@@ -5,8 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Dropdown</title>
+    <!-- menyisipkan css -->
+    <link rel="stylesheet" href="dropdown_style.css"
 </head>
 <body>
-    
+    <div class="menu-wrap">
+        <ul>
+            <li><a href="https://ecampus.pelitabangsa.ac.id/">Home</a></li>
+            <li><a href="https://github.com/Vinez1">Tutorial</a>
+        <ul>
+            <li><a href="https://github.com/Vinez1/WebLab1">HTML</a></li>
+            <li><a href="https://github.com/Vinez1/Lab2Web">CSS</a></li>
+        </ul>
+        </ul>
+        </div>
+    <header>
+        <h1><b><br>Form Mahasiswa Universitas Pelita Bangsa</b></h1>
+    </header>
+    <form action="proses.php" method="post">
+        <fieldset>
+            <legend><img src="foto/logo.png" width="80" title="Logo Univeritas Pelita Bangsa"></legend>
+            <p>
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama">
+            </p>
+            <p>
+                <label for="nim">NIM:</label>
+                <input type="text" id="nim" name="nim">
+            </p>
+            <p>
+                <label for="kelas">Kelas:</label>
+                <input type="text" id="kelas" name="kelas">
+            </p>
+            <p>
+                <label for="prodi">Prodi:</label>
+                <select name='prodi'size=1 multiselect>
+                    <option value='' selected>Pilih Prodi</option>
+                    <option value='Teknik Informatika'>Teknik Informatika</option>
+                    <option value='Teknik Industri'>Teknik Industri</option>
+                    <option value='Teknik Sipil'>Teknik Sipil</option>
+                </select>
+            <p>
+                <label for="fakultas">Fakultas:</label>
+                <select name="ddl" size=1 multiselect>
+                    <option value='' selected>Pilih Fakultas</option>
+                    <option value='FEB'>Ekonomi dan Bisnis</option>
+                    <option value='FH'>Hukum</option>
+                    <option value='FAI'>Agama Islam</option>
+                    <option value='FT'selected='selected'>Teknik</option>
+                </select>
+            </p>
+            <p>
+                <label for="angkatan">Angkatan:</label>
+                <input type="angka" id="angkatan" name="angkatan">
+            </p>
+            <p>
+                <label for="alamat">Alamat:</label>
+                <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+            </p>
+            <p>
+                <label>Jenis Kelamin:</label>
+                <input id="jk_l" type="radio" name="kelamin" value="L" /><label
+    for="jk_l">Laki-laki</label>
+                <input id="jk_p" type="radio" name="kelamin" value="P" /><label
+    for="jk_p">Perempuan</label>
+            </p>
+            <p><input type="submit" value="Login">
+            
+            
+        </fieldset>
+    </form> 
 </body>
 </html>
